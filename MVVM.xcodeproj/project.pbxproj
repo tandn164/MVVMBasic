@@ -19,6 +19,19 @@
 		4DC8F2B62A7A3808008E7901 /* Common.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2B32A7A3808008E7901 /* Common.xcconfig */; };
 		4DC8F2B72A7A3808008E7901 /* Development.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2B42A7A3808008E7901 /* Development.xcconfig */; };
 		4DC8F2B82A7A3808008E7901 /* Production.xcconfig in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2B52A7A3808008E7901 /* Production.xcconfig */; };
+		4DC8F2D22A7A3956008E7901 /* Constant.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2BA2A7A3956008E7901 /* Constant.swift */; };
+		4DC8F2D32A7A3956008E7901 /* Storyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2BB2A7A3956008E7901 /* Storyboard.swift */; };
+		4DC8F2D42A7A3956008E7901 /* EnumDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2BC2A7A3956008E7901 /* EnumDefine.swift */; };
+		4DC8F2D52A7A3956008E7901 /* UIFont+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2BE2A7A3956008E7901 /* UIFont+.swift */; };
+		4DC8F2D62A7A3956008E7901 /* UIImageView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2BF2A7A3956008E7901 /* UIImageView+.swift */; };
+		4DC8F2D72A7A3956008E7901 /* UIViewController+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2C02A7A3956008E7901 /* UIViewController+.swift */; };
+		4DC8F2D82A7A3956008E7901 /* UICollectionView+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2C12A7A3956008E7901 /* UICollectionView+.swift */; };
+		4DC8F2DA2A7A3956008E7901 /* Date+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2C32A7A3956008E7901 /* Date+.swift */; };
+		4DC8F2DB2A7A3956008E7901 /* UIApplication+.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2C42A7A3956008E7901 /* UIApplication+.swift */; };
+		4DC8F2DC2A7A3956008E7901 /* LocalizableString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2C62A7A3956008E7901 /* LocalizableString.swift */; };
+		4DC8F2E32A7A3956008E7901 /* AppShareData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2CF2A7A3956008E7901 /* AppShareData.swift */; };
+		4DC8F2E42A7A3956008E7901 /* NumberUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2D02A7A3956008E7901 /* NumberUtil.swift */; };
+		4DC8F2E52A7A3956008E7901 /* ApplicationUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2D12A7A3956008E7901 /* ApplicationUtil.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +50,19 @@
 		4DC8F2B32A7A3808008E7901 /* Common.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Common.xcconfig; sourceTree = "<group>"; };
 		4DC8F2B42A7A3808008E7901 /* Development.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Development.xcconfig; sourceTree = "<group>"; };
 		4DC8F2B52A7A3808008E7901 /* Production.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = Production.xcconfig; sourceTree = "<group>"; };
+		4DC8F2BA2A7A3956008E7901 /* Constant.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Constant.swift; sourceTree = "<group>"; };
+		4DC8F2BB2A7A3956008E7901 /* Storyboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Storyboard.swift; sourceTree = "<group>"; };
+		4DC8F2BC2A7A3956008E7901 /* EnumDefine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EnumDefine.swift; sourceTree = "<group>"; };
+		4DC8F2BE2A7A3956008E7901 /* UIFont+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIFont+.swift"; sourceTree = "<group>"; };
+		4DC8F2BF2A7A3956008E7901 /* UIImageView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImageView+.swift"; sourceTree = "<group>"; };
+		4DC8F2C02A7A3956008E7901 /* UIViewController+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIViewController+.swift"; sourceTree = "<group>"; };
+		4DC8F2C12A7A3956008E7901 /* UICollectionView+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UICollectionView+.swift"; sourceTree = "<group>"; };
+		4DC8F2C32A7A3956008E7901 /* Date+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Date+.swift"; sourceTree = "<group>"; };
+		4DC8F2C42A7A3956008E7901 /* UIApplication+.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIApplication+.swift"; sourceTree = "<group>"; };
+		4DC8F2C62A7A3956008E7901 /* LocalizableString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LocalizableString.swift; sourceTree = "<group>"; };
+		4DC8F2CF2A7A3956008E7901 /* AppShareData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppShareData.swift; sourceTree = "<group>"; };
+		4DC8F2D02A7A3956008E7901 /* NumberUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NumberUtil.swift; sourceTree = "<group>"; };
+		4DC8F2D12A7A3956008E7901 /* ApplicationUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApplicationUtil.swift; sourceTree = "<group>"; };
 		6410DE130B775CB6596718F7 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8737EACDBF589D0EF720A5B /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		CB67BFE107B32F16C6947B24 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -78,7 +104,7 @@
 			children = (
 				4DC8F2B22A7A3808008E7901 /* Configs */,
 				4DC8F2A32A7A353D008E7901 /* Resources */,
-				4DC8F2A22A7A3538008E7901 /* Source */,
+				4DC8F2A22A7A3538008E7901 /* Sources */,
 				4DC8F28E2A78E1BA008E7901 /* AppDelegate.swift */,
 				4DC8F2922A78E1BA008E7901 /* ViewController.swift */,
 				4DC8F29C2A78E1BC008E7901 /* Info.plist */,
@@ -86,11 +112,14 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
-		4DC8F2A22A7A3538008E7901 /* Source */ = {
+		4DC8F2A22A7A3538008E7901 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F2B92A7A3956008E7901 /* Define */,
+				4DC8F2BD2A7A3956008E7901 /* Extensions */,
+				4DC8F2C52A7A3956008E7901 /* Helpers */,
 			);
-			path = Source;
+			path = Sources;
 			sourceTree = "<group>";
 		};
 		4DC8F2A32A7A353D008E7901 /* Resources */ = {
@@ -122,6 +151,40 @@
 				4DC8F2B52A7A3808008E7901 /* Production.xcconfig */,
 			);
 			path = Configs;
+			sourceTree = "<group>";
+		};
+		4DC8F2B92A7A3956008E7901 /* Define */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F2BA2A7A3956008E7901 /* Constant.swift */,
+				4DC8F2BB2A7A3956008E7901 /* Storyboard.swift */,
+				4DC8F2BC2A7A3956008E7901 /* EnumDefine.swift */,
+			);
+			path = Define;
+			sourceTree = "<group>";
+		};
+		4DC8F2BD2A7A3956008E7901 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F2BE2A7A3956008E7901 /* UIFont+.swift */,
+				4DC8F2BF2A7A3956008E7901 /* UIImageView+.swift */,
+				4DC8F2C02A7A3956008E7901 /* UIViewController+.swift */,
+				4DC8F2C12A7A3956008E7901 /* UICollectionView+.swift */,
+				4DC8F2C32A7A3956008E7901 /* Date+.swift */,
+				4DC8F2C42A7A3956008E7901 /* UIApplication+.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		4DC8F2C52A7A3956008E7901 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F2C62A7A3956008E7901 /* LocalizableString.swift */,
+				4DC8F2CF2A7A3956008E7901 /* AppShareData.swift */,
+				4DC8F2D02A7A3956008E7901 /* NumberUtil.swift */,
+				4DC8F2D12A7A3956008E7901 /* ApplicationUtil.swift */,
+			);
+			path = Helpers;
 			sourceTree = "<group>";
 		};
 		7D09ED40AFB0F5797018B280 /* Pods */ = {
@@ -282,10 +345,23 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DC8F2DA2A7A3956008E7901 /* Date+.swift in Sources */,
+				4DC8F2D62A7A3956008E7901 /* UIImageView+.swift in Sources */,
+				4DC8F2DB2A7A3956008E7901 /* UIApplication+.swift in Sources */,
+				4DC8F2D52A7A3956008E7901 /* UIFont+.swift in Sources */,
+				4DC8F2D82A7A3956008E7901 /* UICollectionView+.swift in Sources */,
+				4DC8F2D72A7A3956008E7901 /* UIViewController+.swift in Sources */,
+				4DC8F2E32A7A3956008E7901 /* AppShareData.swift in Sources */,
+				4DC8F2E52A7A3956008E7901 /* ApplicationUtil.swift in Sources */,
+				4DC8F2D42A7A3956008E7901 /* EnumDefine.swift in Sources */,
 				4DC8F2932A78E1BA008E7901 /* ViewController.swift in Sources */,
 				4DC8F28F2A78E1BA008E7901 /* AppDelegate.swift in Sources */,
+				4DC8F2D22A7A3956008E7901 /* Constant.swift in Sources */,
 				4DC8F2B12A7A3708008E7901 /* Localizable.swift in Sources */,
+				4DC8F2D32A7A3956008E7901 /* Storyboard.swift in Sources */,
+				4DC8F2DC2A7A3956008E7901 /* LocalizableString.swift in Sources */,
 				4DC8F2B02A7A3708008E7901 /* Assets.swift in Sources */,
+				4DC8F2E42A7A3956008E7901 /* NumberUtil.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
