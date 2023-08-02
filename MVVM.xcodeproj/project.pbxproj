@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		282F402120F059CCE4640F5E /* Pods_MVVM.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6410DE130B775CB6596718F7 /* Pods_MVVM.framework */; };
 		4DC8F28F2A78E1BA008E7901 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F28E2A78E1BA008E7901 /* AppDelegate.swift */; };
-		4DC8F2912A78E1BA008E7901 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2902A78E1BA008E7901 /* SceneDelegate.swift */; };
 		4DC8F2932A78E1BA008E7901 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2922A78E1BA008E7901 /* ViewController.swift */; };
 		4DC8F2962A78E1BA008E7901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2942A78E1BA008E7901 /* Main.storyboard */; };
 		4DC8F2982A78E1BC008E7901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2972A78E1BC008E7901 /* Assets.xcassets */; };
@@ -19,7 +18,6 @@
 /* Begin PBXFileReference section */
 		4DC8F28B2A78E1BA008E7901 /* MVVM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVM.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4DC8F28E2A78E1BA008E7901 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		4DC8F2902A78E1BA008E7901 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		4DC8F2922A78E1BA008E7901 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4DC8F2952A78E1BA008E7901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4DC8F2972A78E1BC008E7901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -63,8 +61,9 @@
 		4DC8F28D2A78E1BA008E7901 /* MVVM */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F2A32A7A353D008E7901 /* Resources */,
+				4DC8F2A22A7A3538008E7901 /* Source */,
 				4DC8F28E2A78E1BA008E7901 /* AppDelegate.swift */,
-				4DC8F2902A78E1BA008E7901 /* SceneDelegate.swift */,
 				4DC8F2922A78E1BA008E7901 /* ViewController.swift */,
 				4DC8F2942A78E1BA008E7901 /* Main.storyboard */,
 				4DC8F2972A78E1BC008E7901 /* Assets.xcassets */,
@@ -74,13 +73,34 @@
 			path = MVVM;
 			sourceTree = "<group>";
 		};
+		4DC8F2A22A7A3538008E7901 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		4DC8F2A32A7A353D008E7901 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F2A42A7A3542008E7901 /* Generated */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4DC8F2A42A7A3542008E7901 /* Generated */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Generated;
+			sourceTree = "<group>";
+		};
 		7D09ED40AFB0F5797018B280 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				B8737EACDBF589D0EF720A5B /* Pods-MVVM.debug.xcconfig */,
 				CB67BFE107B32F16C6947B24 /* Pods-MVVM.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -209,7 +229,6 @@
 			files = (
 				4DC8F2932A78E1BA008E7901 /* ViewController.swift in Sources */,
 				4DC8F28F2A78E1BA008E7901 /* AppDelegate.swift in Sources */,
-				4DC8F2912A78E1BA008E7901 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
