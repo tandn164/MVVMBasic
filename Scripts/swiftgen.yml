@@ -1,0 +1,13 @@
+strings:
+  inputs: ../MVVM/Resources/ja.lproj
+  filter: .+\.strings$
+  outputs:
+    - templatePath: stringsTemplate.stencil
+      output: ../MVVM/Resources/Generated/Localizable.swift
+xcassets:
+  inputs:
+    - ../MVVM/Resources/Assets.xcassets
+  outputs:
+    - templatePath: assetsTemplate.stencil
+      output: ../MVVM/Resources/Generated/Assets.swift
+

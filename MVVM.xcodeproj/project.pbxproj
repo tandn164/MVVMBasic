@@ -13,6 +13,9 @@
 		4DC8F2962A78E1BA008E7901 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2942A78E1BA008E7901 /* Main.storyboard */; };
 		4DC8F2982A78E1BC008E7901 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2972A78E1BC008E7901 /* Assets.xcassets */; };
 		4DC8F29B2A78E1BC008E7901 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2992A78E1BC008E7901 /* LaunchScreen.storyboard */; };
+		4DC8F2A92A7A36A3008E7901 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4DC8F2AB2A7A36A3008E7901 /* Localizable.strings */; };
+		4DC8F2B02A7A3708008E7901 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2AE2A7A3708008E7901 /* Assets.swift */; };
+		4DC8F2B12A7A3708008E7901 /* Localizable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F2AF2A7A3708008E7901 /* Localizable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +26,10 @@
 		4DC8F2972A78E1BC008E7901 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4DC8F29A2A78E1BC008E7901 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4DC8F29C2A78E1BC008E7901 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4DC8F2AA2A7A36A3008E7901 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DC8F2AC2A7A36A6008E7901 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4DC8F2AE2A7A3708008E7901 /* Assets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		4DC8F2AF2A7A3708008E7901 /* Localizable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Localizable.swift; sourceTree = "<group>"; };
 		6410DE130B775CB6596718F7 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8737EACDBF589D0EF720A5B /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		CB67BFE107B32F16C6947B24 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -65,9 +72,6 @@
 				4DC8F2A22A7A3538008E7901 /* Source */,
 				4DC8F28E2A78E1BA008E7901 /* AppDelegate.swift */,
 				4DC8F2922A78E1BA008E7901 /* ViewController.swift */,
-				4DC8F2942A78E1BA008E7901 /* Main.storyboard */,
-				4DC8F2972A78E1BC008E7901 /* Assets.xcassets */,
-				4DC8F2992A78E1BC008E7901 /* LaunchScreen.storyboard */,
 				4DC8F29C2A78E1BC008E7901 /* Info.plist */,
 			);
 			path = MVVM;
@@ -83,7 +87,11 @@
 		4DC8F2A32A7A353D008E7901 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F2942A78E1BA008E7901 /* Main.storyboard */,
+				4DC8F2972A78E1BC008E7901 /* Assets.xcassets */,
+				4DC8F2992A78E1BC008E7901 /* LaunchScreen.storyboard */,
 				4DC8F2A42A7A3542008E7901 /* Generated */,
+				4DC8F2AB2A7A36A3008E7901 /* Localizable.strings */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -91,6 +99,8 @@
 		4DC8F2A42A7A3542008E7901 /* Generated */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F2AE2A7A3708008E7901 /* Assets.swift */,
+				4DC8F2AF2A7A3708008E7901 /* Localizable.swift */,
 			);
 			path = Generated;
 			sourceTree = "<group>";
@@ -124,6 +134,7 @@
 				4DC8F2882A78E1BA008E7901 /* Frameworks */,
 				4DC8F2892A78E1BA008E7901 /* Resources */,
 				360277E854E6F8F2B5FF2D74 /* [CP] Embed Pods Frameworks */,
+				4DC8F2AD2A7A36EF008E7901 /* SwiftGen */,
 			);
 			buildRules = (
 			);
@@ -156,6 +167,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ja,
 			);
 			mainGroup = 4DC8F2822A78E1BA008E7901;
 			productRefGroup = 4DC8F28C2A78E1BA008E7901 /* Products */;
@@ -173,6 +185,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC8F29B2A78E1BC008E7901 /* LaunchScreen.storyboard in Resources */,
+				4DC8F2A92A7A36A3008E7901 /* Localizable.strings in Resources */,
 				4DC8F2982A78E1BC008E7901 /* Assets.xcassets in Resources */,
 				4DC8F2962A78E1BA008E7901 /* Main.storyboard in Resources */,
 			);
@@ -197,6 +210,24 @@
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MVVM/Pods-MVVM-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
+		};
+		4DC8F2AD2A7A36EF008E7901 /* SwiftGen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = SwiftGen;
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\nif [[ -f \"${PODS_ROOT}/SwiftGen/bin/swiftgen\" ]]; then\n  $PODS_ROOT/SwiftGen/bin/swiftgen config run --config Scripts/swiftgen.yml\nelse\n  echo \"warning: SwiftGen is not installed. Run 'pod install --repo-update' to install it.\"\nfi\n";
 		};
 		D8993D3C59E2F73CECCC1B24 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -229,6 +260,8 @@
 			files = (
 				4DC8F2932A78E1BA008E7901 /* ViewController.swift in Sources */,
 				4DC8F28F2A78E1BA008E7901 /* AppDelegate.swift in Sources */,
+				4DC8F2B12A7A3708008E7901 /* Localizable.swift in Sources */,
+				4DC8F2B02A7A3708008E7901 /* Assets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -251,6 +284,15 @@
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
 		};
+		4DC8F2AB2A7A36A3008E7901 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4DC8F2AA2A7A36A3008E7901 /* ja */,
+				4DC8F2AC2A7A36A6008E7901 /* en */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
@@ -258,6 +300,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
@@ -318,6 +361,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";

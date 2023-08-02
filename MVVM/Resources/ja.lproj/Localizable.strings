@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  MVVM
+
+  Created by Nguyễn Đức Tân on 02/08/2023.
+  
+*/
+
+"tabTop" = "トップ";
+"tabSetting" = "設定";
+"OK" = "オッケ";
+"Error" = "エラー";
+"hyphenCharacter" = "-";
+"noCharacterString" = "";
