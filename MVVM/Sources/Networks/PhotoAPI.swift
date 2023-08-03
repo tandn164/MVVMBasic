@@ -59,7 +59,7 @@ struct PhotoApi: API {
                       queue: queue,
                       decoder: decoder,
                       success: { (model, error) in
-            let result = model?.map({PhotoViewEntity(url: $0.url)})
+            let result = model?.map({PhotoViewEntity(url: $0.downloadURL)})
             callBack(result, error)
         })
     }

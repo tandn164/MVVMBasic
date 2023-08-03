@@ -48,6 +48,8 @@
 		4DC8F30F2A7B8D55008E7901 /* AppConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F30E2A7B8D55008E7901 /* AppConfig.swift */; };
 		4DC8F3112A7B8D9E008E7901 /* Log.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3102A7B8D9E008E7901 /* Log.swift */; };
 		4DC8F3132A7B9326008E7901 /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3122A7B9326008E7901 /* PhotoAPI.swift */; };
+		4DC8F3172A7BACE3008E7901 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3162A7BACE3008E7901 /* Observable.swift */; };
+		4DC8F3192A7BAE02008E7901 /* TopCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3182A7BAE02008E7901 /* TopCollectionDataSource.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -95,6 +97,8 @@
 		4DC8F30E2A7B8D55008E7901 /* AppConfig.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConfig.swift; sourceTree = "<group>"; };
 		4DC8F3102A7B8D9E008E7901 /* Log.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Log.swift; sourceTree = "<group>"; };
 		4DC8F3122A7B9326008E7901 /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
+		4DC8F3162A7BACE3008E7901 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
+		4DC8F3182A7BAE02008E7901 /* TopCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionDataSource.swift; sourceTree = "<group>"; };
 		6410DE130B775CB6596718F7 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8737EACDBF589D0EF720A5B /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		CB67BFE107B32F16C6947B24 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +150,7 @@
 		4DC8F2A22A7A3538008E7901 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F3142A7BAC8E008E7901 /* Observer */,
 				4DC8F30B2A7B8CA3008E7901 /* Networks */,
 				4DC8F2F52A7B85BB008E7901 /* Controls */,
 				4DC8F2E82A7B85BB008E7901 /* Screens */,
@@ -240,6 +245,7 @@
 				4DC8F2EA2A7B85BB008E7901 /* TopViewModel.swift */,
 				4DC8F2EB2A7B85BB008E7901 /* TopViewController.swift */,
 				4DC8F2EC2A7B85BB008E7901 /* Top.storyboard */,
+				4DC8F3182A7BAE02008E7901 /* TopCollectionDataSource.swift */,
 			);
 			path = Top;
 			sourceTree = "<group>";
@@ -297,6 +303,14 @@
 				4DC8F3122A7B9326008E7901 /* PhotoAPI.swift */,
 			);
 			path = Networks;
+			sourceTree = "<group>";
+		};
+		4DC8F3142A7BAC8E008E7901 /* Observer */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F3162A7BACE3008E7901 /* Observable.swift */,
+			);
+			path = Observer;
 			sourceTree = "<group>";
 		};
 		7D09ED40AFB0F5797018B280 /* Pods */ = {
@@ -461,6 +475,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				4DC8F2DA2A7A3956008E7901 /* Date+.swift in Sources */,
+				4DC8F3172A7BACE3008E7901 /* Observable.swift in Sources */,
+				4DC8F3192A7BAE02008E7901 /* TopCollectionDataSource.swift in Sources */,
 				4DC8F3022A7B85BC008E7901 /* MainViewController.swift in Sources */,
 				4DC8F2D62A7A3956008E7901 /* UIImageView+.swift in Sources */,
 				4DC8F2DB2A7A3956008E7901 /* UIApplication+.swift in Sources */,
