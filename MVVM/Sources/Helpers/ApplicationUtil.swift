@@ -1,8 +1,8 @@
 //
 //  ApplicationUtil.swift
-//  MVVMRxSwift
+//  MVVM
 //
-//  Created by Nguyễn Đức Tân on 22/04/2023.
+//  Created by Nguyễn Đức Tân on 03/08/2023.
 //
 
 import Foundation
@@ -48,21 +48,21 @@ class ApplicationUtil {
         }
     }
     
-//    static var mainView: MainViewController? {
-//        var mainView: UIViewController?
-//        
-//        if #available(iOS 13.0, *) {
-//            let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
-//            if #available(iOS 15.0, *) {
-//                mainView = scene?.keyWindow?.rootViewController
-//            } else {
-//                mainView = scene?.windows.first(where: { $0.isKeyWindow })?.rootViewController
-//            }
-//        } else {
-//            mainView = UIApplication.shared.keyWindow?.rootViewController
-//        }
-//        return mainView as? MainViewController
-//    }
+    static var mainView: MainViewController? {
+        var mainView: UIViewController?
+        
+        if #available(iOS 13.0, *) {
+            let scene = UIApplication.shared.connectedScenes.first as? UIWindowScene
+            if #available(iOS 15.0, *) {
+                mainView = scene?.keyWindow?.rootViewController
+            } else {
+                mainView = scene?.windows.first(where: { $0.isKeyWindow })?.rootViewController
+            }
+        } else {
+            mainView = UIApplication.shared.keyWindow?.rootViewController
+        }
+        return mainView as? MainViewController
+    }
 
     static func openURL(_ url: URL) {
         if #available(iOS 10.0, *) {

@@ -1,8 +1,8 @@
 //
 //  Localizable.swift
-//  MVVMRxSwift
+//  MVVM
 //
-//  Created by Nguyễn Đức Tân on 22/04/2023.
+//  Created by Nguyễn Đức Tân on 03/08/2023.
 //
 
 import UIKit

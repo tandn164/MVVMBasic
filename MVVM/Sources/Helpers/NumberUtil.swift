@@ -1,6 +1,6 @@
 //
 //  NumberUtil.swift
-//  MVVMRxSwift
+//  MVVM
 //
 //  Created by Nguyễn Đức Tân on 24/04/2023.
 //
