@@ -17,5 +17,8 @@ class TopViewController: BaseViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         viewType = .top
+        PhotoApi(.getListPhoto).send { photos, error in
+            print(photos?.count)
+        }
     }
 }
