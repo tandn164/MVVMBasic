@@ -42,7 +42,8 @@ class TopViewController: BaseViewController {
             DispatchQueue.main.async { self?.showAlert(message: error ?? "") }
         }
         
-        viewModel.isLoading?.addObserver(self) { _ in
+        viewModel.isLoading?.addObserver(self) { loading in
+            loading == true ? LoadingHud.show() : LoadingHud.hide()
         }
         
         viewModel.getData()

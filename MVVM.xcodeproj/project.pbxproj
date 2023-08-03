@@ -50,6 +50,8 @@
 		4DC8F3132A7B9326008E7901 /* PhotoAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3122A7B9326008E7901 /* PhotoAPI.swift */; };
 		4DC8F3172A7BACE3008E7901 /* Observable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3162A7BACE3008E7901 /* Observable.swift */; };
 		4DC8F3192A7BAE02008E7901 /* TopCollectionDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F3182A7BAE02008E7901 /* TopCollectionDataSource.swift */; };
+		4DC8F31B2A7BD3B2008E7901 /* LoadingHud.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F31A2A7BD3B2008E7901 /* LoadingHud.swift */; };
+		4DC8F31E2A7BD40F008E7901 /* LoadingCircleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4DC8F31D2A7BD40F008E7901 /* LoadingCircleView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -99,6 +101,8 @@
 		4DC8F3122A7B9326008E7901 /* PhotoAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoAPI.swift; sourceTree = "<group>"; };
 		4DC8F3162A7BACE3008E7901 /* Observable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Observable.swift; sourceTree = "<group>"; };
 		4DC8F3182A7BAE02008E7901 /* TopCollectionDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopCollectionDataSource.swift; sourceTree = "<group>"; };
+		4DC8F31A2A7BD3B2008E7901 /* LoadingHud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingHud.swift; sourceTree = "<group>"; };
+		4DC8F31D2A7BD40F008E7901 /* LoadingCircleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadingCircleView.swift; sourceTree = "<group>"; };
 		6410DE130B775CB6596718F7 /* Pods_MVVM.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MVVM.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		B8737EACDBF589D0EF720A5B /* Pods-MVVM.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.debug.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.debug.xcconfig"; sourceTree = "<group>"; };
 		CB67BFE107B32F16C6947B24 /* Pods-MVVM.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MVVM.release.xcconfig"; path = "Target Support Files/Pods-MVVM/Pods-MVVM.release.xcconfig"; sourceTree = "<group>"; };
@@ -273,6 +277,7 @@
 		4DC8F2F52A7B85BB008E7901 /* Controls */ = {
 			isa = PBXGroup;
 			children = (
+				4DC8F31C2A7BD403008E7901 /* Loading */,
 				4DC8F2F62A7B85BB008E7901 /* Top */,
 				4DC8F2F92A7B85BB008E7901 /* CollectionViewLayout */,
 			);
@@ -311,6 +316,15 @@
 				4DC8F3162A7BACE3008E7901 /* Observable.swift */,
 			);
 			path = Observer;
+			sourceTree = "<group>";
+		};
+		4DC8F31C2A7BD403008E7901 /* Loading */ = {
+			isa = PBXGroup;
+			children = (
+				4DC8F31A2A7BD3B2008E7901 /* LoadingHud.swift */,
+				4DC8F31D2A7BD40F008E7901 /* LoadingCircleView.swift */,
+			);
+			path = Loading;
 			sourceTree = "<group>";
 		};
 		7D09ED40AFB0F5797018B280 /* Pods */ = {
@@ -500,6 +514,8 @@
 				4DC8F2D32A7A3956008E7901 /* Storyboard.swift in Sources */,
 				4DC8F2DC2A7A3956008E7901 /* LocalizableString.swift in Sources */,
 				4DC8F3132A7B9326008E7901 /* PhotoAPI.swift in Sources */,
+				4DC8F31B2A7BD3B2008E7901 /* LoadingHud.swift in Sources */,
+				4DC8F31E2A7BD40F008E7901 /* LoadingCircleView.swift in Sources */,
 				4DC8F3032A7B85BC008E7901 /* BaseView.swift in Sources */,
 				4DC8F2FE2A7B85BC008E7901 /* SettingViewController.swift in Sources */,
 				4DC8F3062A7B85BC008E7901 /* BouncyLayout.swift in Sources */,
